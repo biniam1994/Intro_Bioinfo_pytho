@@ -6,7 +6,7 @@ The purpose of the application is to parse fastqc file as input and generate app
 
 # Running the pragramm
 
-## **Step 1 - Installiation**
+## **Step 1 - Installation**
 ## **Dependencies**
  * Python 3.8.3 
  * pip 20.2.4
@@ -14,9 +14,10 @@ The purpose of the application is to parse fastqc file as input and generate app
  
  | Package | Version | 
  |-------|-------|
- | `plumber` | 0.4.6 |   
- | `rmarkdown` | 2.1 |  
- | `caret` | 6.0.86 | 
- | `randomForest` |  
- | `tinytex` | 0.21 | 
- `
+ | `Seaborn` | 0.4.6 |   
+ | `Matplotlib` | 2.1 |  
+ | `pandas` | 6.0.86 | 
+ | `numpy` |  
+ | `argparse` | 0.21 | 
+ | `os` | 0.21 | 
+ | `errno` | 0.21 | 
