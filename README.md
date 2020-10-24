@@ -8,6 +8,7 @@ The purpose of the application is to parse fastqc file as input and generate app
 
 ## **Step 1 - Installation**
 ## **Dependencies**
+Install this dependencies.
  * Python 3.8.3 
  * pip 20.2.4
  * And the following python packages or libraries:
@@ -21,3 +22,21 @@ The purpose of the application is to parse fastqc file as input and generate app
  | `argparse` | 0.21 | 
  | `os` | 0.21 | 
  | `errno` | 0.21 | 
+## **Step 2 - Running python programm from command line**
+run below command to see for help with -h flag and know the usage of argument to be passed to obtaine specific result
+```
+$ python Assigment.py -h
+```
+Example we can pass analyze the basic stastics by specifing -m or -module = BS, -i input fastqc file, -o output directory or folder.
+```
+$ python Assigment.py -i fastqc_data1.txt -o Result -m BS
+```
+The same here in this command as well we are only changing the -m module to `ALL`, which will run all the module and output the file to 
+appropraite directory
+```
+$ python Assigment.py -i fastqc_data1.txt -o ALL_results -m ALL
+```
+
+```
+$ python Assigment.py -i fastqc_data1.txt -o Filter_report -m Filter
+```
