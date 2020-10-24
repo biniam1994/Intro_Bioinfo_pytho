@@ -27,7 +27,8 @@ run below command to see for help with -h flag and know the usage of argument to
 ```
 $ python Assigment.py -h
 ```
-Example we can pass analyze the basic stastics by specifing -m or -module = BS, -i input fastqc file, -o output directory or folder.
+Example we can pass analyze the basic stastics by specifing -m or -module = module name (see help to check short notation of modules),
+-i input fastqc file, -o output directory or folder.
 ```
 $ python Assigment.py -i fastqc_data1.txt -o Result -m BS
 ```
